@@ -1,0 +1,16 @@
+------------------------------
+Prog Project
+Dec 9 2022
+In Progress
+File Writer up and running, alter to complete when final check is done
+------------------------------------------------------------
+Data Project
+Dec 9 2022
+In Progress
+Section 2 complete, section 3 left to go
+------------------------------------------------------------
+Web project
+dec 9 2022
+In Progress
+Hi Sim, did you check this file?  Thanks for helping out with the writing to storage problem I was having
+------------------------------
