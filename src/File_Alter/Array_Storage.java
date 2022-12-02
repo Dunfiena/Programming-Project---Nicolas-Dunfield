@@ -9,18 +9,11 @@ public class Array_Storage {
     public ArrayList<String> Status=new ArrayList<>();
     public ArrayList<String> Description=new ArrayList<>();
 
-
-    public void rty(){
-        Task.ensureCapacity(999);
-        Duedate.ensureCapacity(999);
-        Status.ensureCapacity(999);
-        Description.ensureCapacity(999);
-    }
     //select array
     public void selector(){
         Scanner in=new Scanner(System.in);
         Scanner in2=new Scanner(System.in);
-        System.out.println("Which set of arrays would you like to alter?");
+        System.out.println("Which set of arrays would you like to alter? (Please enter the number of the array)");
         int select=in.nextInt();
         System.out.println("Which value do you want changed?");
         System.out.println("task: " +Task.get(select));
@@ -60,6 +53,7 @@ public class Array_Storage {
     }
 }
 public void mark(){
+        //this Code is to allow you to pick the 'status' of the task.
         Scanner in =new Scanner(System.in);
         System.out.println("How would you like to make this task? 1=To be Done, 2=in Progress 3=Complete");
         int choose=in.nextInt();

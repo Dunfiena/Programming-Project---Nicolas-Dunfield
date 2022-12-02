@@ -5,6 +5,7 @@ import java.util.Scanner;
 public class File_Deleter {
     public boolean flag=true;
     public void Deleter(){
+        //This is to delete a file
         Scanner in=new Scanner(System.in);
 
         System.out.println("Which file would you like to delete?");
@@ -24,6 +25,9 @@ public class File_Deleter {
         }
     }
     public void delete_selected(Array_Storage call) {
+        //this serves to delete a specific array based on the number of the array
+        //Setting the flag to true at the beginning of the array allows us to use it multiple times
+        //in the same session without it causing issues
         try {
             flag=true;
             while(flag) {

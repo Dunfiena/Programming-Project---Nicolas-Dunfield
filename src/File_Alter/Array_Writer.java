@@ -6,7 +6,7 @@ public class Array_Writer {
     public static boolean flag = true;
 
     public void Writer(Array_Storage Add) {
-        //meant to write everything to txt
+        //This allows you to write everything to a txt file when you are done with the program
         try{
         Scanner in = new Scanner(System.in);
         System.out.println("Which file would you like to alter?");
@@ -36,7 +36,9 @@ public class Array_Writer {
     }
 
     public void write_to_array(Array_Storage Add) {
-        //Writing task to array
+        //Writing and altering tasks in the array
+        //Setting the flag to true at the beginning of the array allows us to use it multiple times
+        //in the same session without it causing issues
         try{
         Scanner in = new Scanner(System.in);
         flag=true;
